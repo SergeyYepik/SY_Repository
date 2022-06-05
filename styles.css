@@ -1,0 +1,33 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+ h1{
+    text-align: center;
+ }
+
+ .class_photo{
+     width: 200px;
+     border-radius: 4%;
+     box-shadow: 5px 5px 15px 0px  rgba(0,0,0,40%);
+     
+ }
+
+ .common_data{
+    text-align: right;
+ }
+ 
+ .exp_data{
+     padding: 0px 0px 0px 0px;
+     border-radius: 5px;
+ }
+
+ .list_style{
+     list-style: none;
+ }
+
+ .add_info h2{
+     text-align: center;
+ }
