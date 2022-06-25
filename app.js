@@ -1,20 +1,22 @@
 function turnEn(){
-    location.href = window.location.pathname + "#" + "en"
+    location.href = window.location.pathname + "#" + "en";
     location.reload()
 }
 
 function turnUa(){
-    location.href = window.location.pathname + "#" + "uk"
+    location.href = window.location.pathname + "#" + "uk";
     location.reload()
 }
+
+changelanguage()
 
 function changelanguage(){
     let hash = window.location.hash
     if (hash == "#en"){
-        document.getElementById('ownerName').innerHTML = 'Sergiy Yepik'
         document.getElementById('dateOfBirth').innerHTML = '<strong>Date of birth: 31.01.1971</strong>'
         document.getElementById('city').innerHTML = '<strong>City:  Cherkasy</strong>'
         document.getElementById('phone').innerHTML = '<strong>Phone: +38 (050) 3634343</strong>'
+        document.getElementById('ownerName').innerHTML = 'Sergiy Yepik'
         document.getElementById('education').innerHTML = 'Education'
         document.getElementById('experience').innerHTML = 'Experience'
         document.getElementById('responsibilities').innerHTML = 'Responsibilities'
@@ -103,4 +105,3 @@ function changelanguage(){
 
 }
 
-changelanguage()
