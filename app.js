@@ -1,17 +1,17 @@
 function turnEn(){
-    location.href = window.location.pathname + "#" + "en";
+    location.href = window.location.pathname + "#en";
     location.reload()
 }
 
 function turnUa(){
-    location.href = window.location.pathname + "#" + "uk";
+    location.href = window.location.pathname + "#uk";
     location.reload()
 }
 
 changelanguage()
 
 function changelanguage(){
-    let hash = window.location.hash
+    let hash = window.location.hash;
     if (hash == "#en"){
         document.getElementById('dateOfBirth').innerHTML = '<strong>Date of birth: 31.01.1971</strong>'
         document.getElementById('city').innerHTML = '<strong>City:  Cherkasy</strong>'
@@ -46,10 +46,10 @@ function changelanguage(){
         document.getElementById('ind8').innerHTML = 'TPA'
         document.getElementById('ind9').innerHTML = 'powder coating of metal'
         document.getElementById('addInfo1').innerHTML = '<strong>Foreign languagies:</strong> English, level B2 '
-        document.getElementById('addInfo2').innerHTML = '<strong>Auto:</strong> B1, B, own car '
+        document.getElementById('addInfo2').innerHTML = '<strong>Auto:</strong> B1, B, own car'
         document.getElementById('addInfo3').innerHTML = '<strong>Personal skills:</strong> systematic thinking and analytical mind, responsibility, independence in solving problems, motivation to achieve results, sociability, attention to detail, punctuality, optimism'
         document.getElementById('addInfo4').innerHTML = '<strong>Professional qualities:</strong> ability to plan, optimize and execute complex projects based on detailed analysis of business processes, conduct qualitative and structured analysis of reporting and current situation, management of the company in crisis, ability to work with large teams, ability to interest employees in achieving goals'
-        document.getElementById('addInfo5').innerHTML = '<strong>Marital status: </strong>married'
+        document.getElementById('addInfo5').innerHTML = '<strong>Marital status: </strong> married'
         document.getElementById('addInfo6').innerHTML = '<strong>Children:</strong> adult son'
         document.getElementById('addInfo7').innerHTML = '<strong>Hobbies:</strong> foreign languages, sports, tourism'
         document.getElementById('addInfo8').innerHTML = '<strong>Extra interests:</strong> IT, Data Science, Big Data, Neural Networks, JavaScript, Python'
@@ -92,7 +92,7 @@ function changelanguage(){
         document.getElementById('ind9').innerHTML = 'Порошкове фарбування металу'
         document.getElementById('addInfo1').innerHTML = '<strong>Знання іноземних мов:</strong> англійська, рівень В2'
         document.getElementById('addInfo2').innerHTML = '<strong>Авто:</strong> кат. B1, B, власне авто.'
-        document.getElementById('addInfo3').innerHTML = '<strong>Особисті навички:</strong> системне мислення і аналітичний склад розуму, відповідальність, самостійність у вирішенні завдань, мотивація на досягнення результату, комунікабельність, уважність до деталей, пунктуальність, оптимізм, активність.'
+        document.getElementById('addInfo3').innerHTML = '<strong>Особисті навички:</strong> системне мислення та аналітичний склад розуму, відповідальність, самостійність у вирішенні завдань, мотивація на досягнення результату, комунікабельність, уважність до деталей, пунктуальність, оптимізм, активність.'
         document.getElementById('addInfo4').innerHTML = 'Професійні якості:</strong> вміння планувати, оптимізувати та виконувати складні проекти на основі детального аналізу бізнес процесів, проводити якісний та структурований аналіз звітності, а також фактичної поточної ситуації, керування компанією в умовах кризи, вміння працювати з великими колективами, вміння зацікавити працівників досягненням мети компанії.'
         document.getElementById('addInfo5').innerHTML = '<strong>Сімейний стан: </strong> одружений'
         document.getElementById('addInfo6').innerHTML = '<strong>Діти:</strong> дорослий син'

@@ -9,18 +9,12 @@
 /* Small Devuces, Tablets */
 @media only screen and (max-width: 768px){
     body{
-        background-color: rgb(0, 253, 253);
-        color: /*rgba(0, 0, 0, 0.7)*/ #110f0f;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 28px 
     }
 }
 /* Extra Small Devuces, Phones */
 @media only screen and (max-width: 480px){
     body{
-        background-color: rgb(0, 253, 253);
-        color: /*rgba(0, 0, 0, 0.7)*/ #110f0f;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 28px 
     }
 }
