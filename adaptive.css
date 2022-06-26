@@ -9,17 +9,20 @@
 /* Small Devuces, Tablets */
 @media only screen and (max-width: 768px){
     body{
+        padding:10 px;
         font-size: 24px 
     }
 
     .class_photo{
         width: 250px;
     }
+
     .button{
         font-size: 1.2rem;
         width: 200px;
         height: 50px; 
      }
+
      .trbtn{
         width: 30px;
         height: 20px; 
@@ -28,17 +31,20 @@
 /* Extra Small Devuces, Phones */
 @media only screen and (max-width: 480px){
     body{
+        padding:10 px;
         font-size: 24px 
     }
 
     .class_photo{
         width: 250px;
     }
+
     .button{
         font-size: 1.2rem;
         width: 200px;
         height: 50px; 
      }
+
      .trbtn{
         width: 30px;
         height: 20px; 
