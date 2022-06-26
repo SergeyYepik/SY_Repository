@@ -89,6 +89,11 @@ body {
      text-align: center;
  }
 
+ .trbtn{
+    width: 20px;
+    height: 14px; 
+ }
+
  .button{
     border-width: 1px;
     color: #6c757d;
