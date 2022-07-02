@@ -118,6 +118,12 @@ html, body{
     color: #FFFFFF;
 }
 
+.whiteownerNameBox{
+    position:absolute;
+    top: 200px;
+
+    width: 100%
+}
 
 .bh2{
 
