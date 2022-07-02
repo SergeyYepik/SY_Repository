@@ -14,6 +14,10 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 
     </head>
@@ -21,8 +25,14 @@
     
     <div class="sidenav">
       
+      <div class="button_right_box">
+      <button class="button_right" onclick="full_nav()"><img src="./images/arrow_forward.svg"></img></button>
+      </div>
+        
       <img src="./images/Photo.jpg" alt="Photo" class="class_photo"/>
       
+      <h1 class="whiteownerName">Sergiy Yepik</h1>
+
       <div class="contacts">
         <div class="yMark">
          
@@ -31,31 +41,31 @@
           <h2 class="bh2">Contacts</h2>
         </div>
         <div>
-          <h3 class="wh3">
-            City: 
-            <br> Cherkasy, ready to relocate
-            <br>
-            <br>
-            Phones:
-            <br> 
-            +38 (050) 3634343
-            <br>
-            +38 (073) 3634343
-            <br>
-            <br>
-            Email: 
-            <br>
-            <a class="link" href="mailto:sergey.a.epik@gmail.com">
-              sergey.a.epik@gmail.com
-            </a>
-            <br>
-            <br>
-            Linkedin: 
-            <br>
-            <a class="link" href="http://www.linkedin.com/in/sergeyepik">
-              www.linkedin.com/in/sergeyepik
-            </a>
-          </h3>
+          <div class="black_info_container">
+            <h3 class="wh3">
+              City: 
+              <br> Cherkasy, ready to relocate
+              <br>
+              <br>
+              Phones:
+              <br> 
+              +38 (050) 3634343
+              <br>
+              +38 (073) 3634343
+              <br>
+              <br>
+              Email: 
+              <br>
+              <a class="link" href="mailto:sergey.a.epik@gmail.com">
+                sergey.a.epik@gmail.com
+              </a>
+              <br>
+              <br>
+              Linkedin: 
+              <br>
+              <a class="link" href="http://www.linkedin.com/in/sergeyepik">www.linkedin.com/in/sergeyepik</a>
+            </h3>
+          </div>  
         </div>
     </div>
 
@@ -67,11 +77,13 @@
           <h2 class="bh2">Education</h2>
         </div>
         <div>
-          <h3 class="wh3">
-            1988-1993
-            <br>
-            Donetsk State University, Master of Computer Applications - MCA, Information Technology
-          </h3>
+          <div class="black_info_container">
+            <h3 class="wh3">
+              1988-1993
+              <br>
+              Donetsk State University, Master of Computer Applications - MCA, Information Technology
+            </h3>
+          </div>
         </div>
       </div>
 
@@ -83,22 +95,25 @@
           <h2 class="bh2">Personal</h2>
         </div>
         <div>
-          <h3 class="wh3">Date of birth: 31.01.1971 
-            <br>
-            <br>
-            Foreign languagies: English, level B2
-            <br>
-            <br>
-            Auto: B1, B, own car
-            <br>
-            <br>
-            Marital status: married 
-            <br>
-            <br>
-            Children: adult son
-            <br>
-            <br>
-            Hobbies: foreign languages, sports, tourism
+          <div class="black_info_container">
+            <h3 class="wh3">Date of birth: 31.01.1971 
+              <br>
+              <br>
+              Foreign languagies: English, level B2
+              <br>
+              <br>
+              Auto: B1, B, own car
+              <br>
+              <br>
+              Marital status: married 
+              <br>
+              <br>
+              Children: adult son
+              <br>
+              <br>
+              Hobbies: foreign languages, sports, tourism
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -109,6 +124,10 @@
 
     <div class="main">
 
+      <div class="button_left_box">
+        <button class="button_left" onclick="full_main()"><img src="./images/arrow_back.svg"></img></button>
+      </div>
+  
       <header class="header">
         <nav class="header-nav">
           <ul class="header-list">
@@ -223,7 +242,7 @@
         </div>
       </div>
       <div class="download_area">
-        <nav class="header-nav">
+        <nav class="bottom-header-nav">
           <a href="./files/CV Sergey Yepik - UA.pdf" download=""><button id="btnua" class="button">Download .pdf (UA)</button></a>
           <a href="./files/CV Sergey Yepik - EN.pdf" download=""><button id="btnen" class="button">Download .pdf (EN)</button></a>
         </nav>
