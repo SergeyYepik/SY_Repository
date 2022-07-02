@@ -1,6 +1,5 @@
 function full_nav(){
-    document.getElementsByClassName('sidenav')[0].style.width = '350px'
-    document.getElementsByClassName('main')[0].style.marginleft = '350px'
+    document.getElementsByClassName('sidenav')[0].style.width = '100%'
 }
 
 function full_main(){
