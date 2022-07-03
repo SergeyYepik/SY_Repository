@@ -6,9 +6,10 @@ function full_nav(){
         document.getElementsByClassName('sidenav')[0].style.overflowY = 'scroll'
 
         document.getElementsByClassName('whiteownerName')[0].style.visibility = 'visible'
-        document.getElementsByClassName('contacts')[0].style.top = '300px'
-        document.getElementsByClassName('education')[0].style.top = '550px'
-        document.getElementsByClassName('personal')[0].style.top = '660px'
+        document.getElementsByClassName('whiteownerName')[0].innerHTML = 'Sergiy Yepik'
+    //    document.getElementsByClassName('contacts')[0].style.top = '300px'
+    //    document.getElementsByClassName('education')[0].style.top = '550px'
+    //    document.getElementsByClassName('personal')[0].style.top = '660px'
 
         document.getElementsByClassName('button_right')[0].innerHTML = '<img src="./images/arrow_back.svg">'
     } else 
@@ -18,6 +19,7 @@ function full_nav(){
             document.getElementsByClassName('sidenav')[0].style.overflowY = 'auto'
 
             document.getElementsByClassName('whiteownerName')[0].style.visibility = 'hidden'
+            document.getElementsByClassName('whiteownerName')[0].innerHTML = ''
             document.getElementsByClassName('contacts')[0].style.top = '250px'
             document.getElementsByClassName('education')[0].style.top = '500px'
             document.getElementsByClassName('personal')[0].style.top = '610px'
